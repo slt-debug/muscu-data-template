@@ -4,6 +4,9 @@ Ce dépôt sert de **modèle** pour l'appli Muscu (suivi de séances de musculat
 Chaque utilisateur crée **son propre dépôt privé** à partir de ce modèle : ses séances, mesures et objectifs y sont
 enregistrés, et personne d'autre ne les voit.
 
+**L'appli est réservée à un cercle privé** : avant de l'installer, envoie ton nom d'utilisateur GitHub à la personne
+qui te l'a proposée, pour qu'elle t'ajoute à la liste. Sinon l'appli affichera « Appli réservée ».
+
 Ce modèle ne contient aucune donnée : l'appli crée ses fichiers elle-même au premier enregistrement.
 
 ## 1. Créer ton dépôt (2 min, sur ordinateur)
