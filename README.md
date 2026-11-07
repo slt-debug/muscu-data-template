@@ -43,7 +43,8 @@ Puis, dans l'appli : **Réglages › Synchronisation GitHub** :
 | Fichier | `data.json` |
 | Jeton d'accès | le jeton copié à l'étape 2 |
 
-La carte **« Bien démarrer »** de la page Objectifs te guide ensuite : objectifs, première séance, première pesée.
+La carte **« Bien démarrer »** de la page Objectifs te guide ensuite : **choix de ton programme** (modèles prêts à l'emploi,
+modifiables ensuite dans le dashboard), objectifs, première séance, première pesée.
 
 ## 4. Le dashboard sur ordinateur (facultatif)
 
