@@ -54,14 +54,15 @@ modifiables ensuite dans le dashboard), objectifs, première séance, première 
 Ouvre **https://slt-debug.github.io/muscu-app/dashboard/** et connecte-toi avec les mêmes informations
 (ou un deuxième jeton créé de la même façon). Rien à installer.
 
-## 5. Notification de rappel des mensurations (facultatif)
+## 5. Notifications de rappel (facultatif)
 
 Ton dépôt contient déjà un automate qui peut t'envoyer une notification le jour où tes mensurations sont à refaire
-(réglage dans l'appli : **Réglages › Rappel mensurations**). Pour l'activer :
+(réglage dans l'appli : **Réglages › Rappel mensurations**), et à l'heure choisie pour chaque complément alimentaire
+pas encore coché (réglage dans l'appli : **Corps › Nutrition**, fiche du complément). Pour l'activer :
 
 1. Installe l'appli **ntfy** sur ton téléphone (Play Store ou App Store) et abonne-toi à un **sujet** au nom difficile
    à deviner (par exemple une suite de mots et de chiffres) : quiconque connaît ce nom peut lire les notifications.
 2. Dans ton dépôt `muscu-data` : **Settings › Secrets and variables › Actions › New repository secret**,
    nom `NTFY_TOPIC`, valeur : ton sujet.
 
-Sans ce secret, l'automate ne fait rien. Il n'envoie rien non plus avant ta première mesure.
+Sans ce secret, l'automate ne fait rien. Il n'envoie aucun rappel de mensurations avant ta première mesure.
